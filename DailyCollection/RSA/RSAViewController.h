@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  RSAViewController.h
 //  DailyCollection
 //
 //  Created by 王云峰 on 2021/2/25.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MainViewController : BaseViewController
+@interface RSAViewController : BaseViewController
 
 @end
 

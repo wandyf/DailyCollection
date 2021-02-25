@@ -15,6 +15,13 @@
 		5E61DAD125E7412B00CD9BBC /* DailyCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E61DAD025E7412B00CD9BBC /* DailyCollectionTests.m */; };
 		5E61DADC25E7412B00CD9BBC /* DailyCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E61DADB25E7412B00CD9BBC /* DailyCollectionUITests.m */; };
 		5E61DAFF25E742D500CD9BBC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E61DAFE25E742D500CD9BBC /* MainViewController.m */; };
+		5E83B23125E7820A000E79E3 /* MainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B23025E7820A000E79E3 /* MainViewModel.m */; };
+		5E83B23A25E79B5A000E79E3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B23925E79B5A000E79E3 /* BaseViewController.m */; };
+		5E83B24025E79B78000E79E3 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B23F25E79B78000E79E3 /* BaseNavigationController.m */; };
+		5E9340CF25E74F20007E98B6 /* RSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9340CE25E74F20007E98B6 /* RSAViewController.m */; };
+		5E9340D825E74F29007E98B6 /* RSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9340D725E74F29007E98B6 /* RSACryptor.m */; };
+		5E9340DE25E74F37007E98B6 /* rsacert.der in Resources */ = {isa = PBXBuildFile; fileRef = 5E9340DC25E74F37007E98B6 /* rsacert.der */; };
+		5E9340DF25E74F37007E98B6 /* p.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 5E9340DD25E74F37007E98B6 /* p.p12 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,18 @@
 		5E61DADD25E7412B00CD9BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E61DAFD25E742D500CD9BBC /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		5E61DAFE25E742D500CD9BBC /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5E83B22F25E7820A000E79E3 /* MainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewModel.h; sourceTree = "<group>"; };
+		5E83B23025E7820A000E79E3 /* MainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewModel.m; sourceTree = "<group>"; };
+		5E83B23825E79B5A000E79E3 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5E83B23925E79B5A000E79E3 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		5E83B23E25E79B78000E79E3 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		5E83B23F25E79B78000E79E3 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		5E9340CD25E74F20007E98B6 /* RSAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAViewController.h; sourceTree = "<group>"; };
+		5E9340CE25E74F20007E98B6 /* RSAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAViewController.m; sourceTree = "<group>"; };
+		5E9340D625E74F29007E98B6 /* RSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSACryptor.h; sourceTree = "<group>"; };
+		5E9340D725E74F29007E98B6 /* RSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSACryptor.m; sourceTree = "<group>"; };
+		5E9340DC25E74F37007E98B6 /* rsacert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsacert.der; sourceTree = "<group>"; };
+		5E9340DD25E74F37007E98B6 /* p.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = p.p12; sourceTree = "<group>"; };
 		DAA8CF1AC93468B37ED52E76 /* Pods-DailyCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyCollection.debug.xcconfig"; path = "Target Support Files/Pods-DailyCollection/Pods-DailyCollection.debug.xcconfig"; sourceTree = "<group>"; };
 		F267D73F7BC9933667FB6064 /* Pods-DailyCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyCollection.release.xcconfig"; path = "Target Support Files/Pods-DailyCollection/Pods-DailyCollection.release.xcconfig"; sourceTree = "<group>"; };
 		F9C0871D8D17F78AF1A9A36E /* libPods-DailyCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DailyCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,7 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				5E61DAF825E7423600CD9BBC /* AppDelegate */,
+				5E83B24A25E79B85000E79E3 /* Base */,
 				5E61DAFB25E7427A00CD9BBC /* Main */,
+				5E9340CC25E74F0C007E98B6 /* RSA */,
 				5E61DAFC25E7428700CD9BBC /* Resources */,
 				5E61DAC025E7412B00CD9BBC /* Assets.xcassets */,
 				5E61DAC225E7412B00CD9BBC /* LaunchScreen.storyboard */,
@@ -147,6 +168,8 @@
 		5E61DAFB25E7427A00CD9BBC /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5E83B22F25E7820A000E79E3 /* MainViewModel.h */,
+				5E83B23025E7820A000E79E3 /* MainViewModel.m */,
 				5E61DAFD25E742D500CD9BBC /* MainViewController.h */,
 				5E61DAFE25E742D500CD9BBC /* MainViewController.m */,
 			);
@@ -158,6 +181,30 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E83B24A25E79B85000E79E3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5E83B23825E79B5A000E79E3 /* BaseViewController.h */,
+				5E83B23925E79B5A000E79E3 /* BaseViewController.m */,
+				5E83B23E25E79B78000E79E3 /* BaseNavigationController.h */,
+				5E83B23F25E79B78000E79E3 /* BaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5E9340CC25E74F0C007E98B6 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				5E9340DD25E74F37007E98B6 /* p.p12 */,
+				5E9340DC25E74F37007E98B6 /* rsacert.der */,
+				5E9340D625E74F29007E98B6 /* RSACryptor.h */,
+				5E9340D725E74F29007E98B6 /* RSACryptor.m */,
+				5E9340CD25E74F20007E98B6 /* RSAViewController.h */,
+				5E9340CE25E74F20007E98B6 /* RSAViewController.m */,
+			);
+			path = RSA;
 			sourceTree = "<group>";
 		};
 		6F1C55F62905FE86FE26EAE7 /* Frameworks */ = {
@@ -174,7 +221,6 @@
 				DAA8CF1AC93468B37ED52E76 /* Pods-DailyCollection.debug.xcconfig */,
 				F267D73F7BC9933667FB6064 /* Pods-DailyCollection.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -282,6 +328,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E61DAC425E7412B00CD9BBC /* LaunchScreen.storyboard in Resources */,
+				5E9340DE25E74F37007E98B6 /* rsacert.der in Resources */,
+				5E9340DF25E74F37007E98B6 /* p.p12 in Resources */,
 				5E61DAC125E7412B00CD9BBC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,8 +381,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E61DAB625E7412A00CD9BBC /* AppDelegate.m in Sources */,
+				5E9340D825E74F29007E98B6 /* RSACryptor.m in Sources */,
 				5E61DAFF25E742D500CD9BBC /* MainViewController.m in Sources */,
+				5E83B23125E7820A000E79E3 /* MainViewModel.m in Sources */,
+				5E83B24025E79B78000E79E3 /* BaseNavigationController.m in Sources */,
 				5E61DAC725E7412B00CD9BBC /* main.m in Sources */,
+				5E83B23A25E79B5A000E79E3 /* BaseViewController.m in Sources */,
+				5E9340CF25E74F20007E98B6 /* RSAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
