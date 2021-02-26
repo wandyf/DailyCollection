@@ -8,12 +8,16 @@
 #import "MainViewModel.h"
 
 #import "RSAViewController.h"
+#import "HASHViewController.h"
+#import "EncryptionViewController.h"
 
 @implementation MainViewModel
 
 - (NSArray *)vcArray {
     if (!_vcArray) {
-        _vcArray = @[@{@"name":RSAViewController.identifier,@"desc":@"RSA加密与解密"}];
+        _vcArray = @[@{@"name":RSAViewController.identifier,@"desc":@"RSA加密与解密"},
+                     @{@"name":HASHViewController.identifier,@"desc":@"HASH算法"},
+                     @{@"name":EncryptionViewController.identifier,@"desc":@"对称加密"}];
     }
     return _vcArray;
 }

@@ -18,6 +18,10 @@
 		5E83B23125E7820A000E79E3 /* MainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B23025E7820A000E79E3 /* MainViewModel.m */; };
 		5E83B23A25E79B5A000E79E3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B23925E79B5A000E79E3 /* BaseViewController.m */; };
 		5E83B24025E79B78000E79E3 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83B23F25E79B78000E79E3 /* BaseNavigationController.m */; };
+		5E8E52B725E8D19000EB512D /* HASHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E52B625E8D19000EB512D /* HASHViewController.m */; };
+		5E8E52C025E8D1F600EB512D /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E52BE25E8D1F600EB512D /* NSString+Hash.m */; };
+		5E8E52C725E8F0A000EB512D /* EncryptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E52C625E8F0A000EB512D /* EncryptionViewController.m */; };
+		5E8E52D025E8F11300EB512D /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E52CF25E8F11300EB512D /* EncryptionTools.m */; };
 		5E9340CF25E74F20007E98B6 /* RSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9340CE25E74F20007E98B6 /* RSAViewController.m */; };
 		5E9340D825E74F29007E98B6 /* RSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9340D725E74F29007E98B6 /* RSACryptor.m */; };
 		5E9340DE25E74F37007E98B6 /* rsacert.der in Resources */ = {isa = PBXBuildFile; fileRef = 5E9340DC25E74F37007E98B6 /* rsacert.der */; };
@@ -63,6 +67,14 @@
 		5E83B23925E79B5A000E79E3 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		5E83B23E25E79B78000E79E3 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		5E83B23F25E79B78000E79E3 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		5E8E52B525E8D19000EB512D /* HASHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HASHViewController.h; sourceTree = "<group>"; };
+		5E8E52B625E8D19000EB512D /* HASHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HASHViewController.m; sourceTree = "<group>"; };
+		5E8E52BE25E8D1F600EB512D /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		5E8E52BF25E8D1F600EB512D /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		5E8E52C525E8F0A000EB512D /* EncryptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptionViewController.h; sourceTree = "<group>"; };
+		5E8E52C625E8F0A000EB512D /* EncryptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptionViewController.m; sourceTree = "<group>"; };
+		5E8E52CE25E8F11300EB512D /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
+		5E8E52CF25E8F11300EB512D /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
 		5E9340CD25E74F20007E98B6 /* RSAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAViewController.h; sourceTree = "<group>"; };
 		5E9340CE25E74F20007E98B6 /* RSAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAViewController.m; sourceTree = "<group>"; };
 		5E9340D625E74F29007E98B6 /* RSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSACryptor.h; sourceTree = "<group>"; };
@@ -129,6 +141,8 @@
 				5E83B24A25E79B85000E79E3 /* Base */,
 				5E61DAFB25E7427A00CD9BBC /* Main */,
 				5E9340CC25E74F0C007E98B6 /* RSA */,
+				5E8E52B425E8D16200EB512D /* HASH */,
+				5E8E52C425E8EF3C00EB512D /* Cryption */,
 				5E61DAFC25E7428700CD9BBC /* Resources */,
 				5E61DAC025E7412B00CD9BBC /* Assets.xcassets */,
 				5E61DAC225E7412B00CD9BBC /* LaunchScreen.storyboard */,
@@ -192,6 +206,28 @@
 				5E83B23F25E79B78000E79E3 /* BaseNavigationController.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		5E8E52B425E8D16200EB512D /* HASH */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E52BF25E8D1F600EB512D /* NSString+Hash.h */,
+				5E8E52BE25E8D1F600EB512D /* NSString+Hash.m */,
+				5E8E52B525E8D19000EB512D /* HASHViewController.h */,
+				5E8E52B625E8D19000EB512D /* HASHViewController.m */,
+			);
+			path = HASH;
+			sourceTree = "<group>";
+		};
+		5E8E52C425E8EF3C00EB512D /* Cryption */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E52CE25E8F11300EB512D /* EncryptionTools.h */,
+				5E8E52CF25E8F11300EB512D /* EncryptionTools.m */,
+				5E8E52C525E8F0A000EB512D /* EncryptionViewController.h */,
+				5E8E52C625E8F0A000EB512D /* EncryptionViewController.m */,
+			);
+			path = Cryption;
 			sourceTree = "<group>";
 		};
 		5E9340CC25E74F0C007E98B6 /* RSA */ = {
@@ -380,11 +416,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8E52D025E8F11300EB512D /* EncryptionTools.m in Sources */,
 				5E61DAB625E7412A00CD9BBC /* AppDelegate.m in Sources */,
 				5E9340D825E74F29007E98B6 /* RSACryptor.m in Sources */,
 				5E61DAFF25E742D500CD9BBC /* MainViewController.m in Sources */,
+				5E8E52C025E8D1F600EB512D /* NSString+Hash.m in Sources */,
 				5E83B23125E7820A000E79E3 /* MainViewModel.m in Sources */,
 				5E83B24025E79B78000E79E3 /* BaseNavigationController.m in Sources */,
+				5E8E52B725E8D19000EB512D /* HASHViewController.m in Sources */,
+				5E8E52C725E8F0A000EB512D /* EncryptionViewController.m in Sources */,
 				5E61DAC725E7412B00CD9BBC /* main.m in Sources */,
 				5E83B23A25E79B5A000E79E3 /* BaseViewController.m in Sources */,
 				5E9340CF25E74F20007E98B6 /* RSAViewController.m in Sources */,
