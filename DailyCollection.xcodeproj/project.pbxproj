@@ -26,6 +26,8 @@
 		5E9340D825E74F29007E98B6 /* RSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9340D725E74F29007E98B6 /* RSACryptor.m */; };
 		5E9340DE25E74F37007E98B6 /* rsacert.der in Resources */ = {isa = PBXBuildFile; fileRef = 5E9340DC25E74F37007E98B6 /* rsacert.der */; };
 		5E9340DF25E74F37007E98B6 /* p.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 5E9340DD25E74F37007E98B6 /* p.p12 */; };
+		5EC399C025F0D3DE00437C3A /* MetodSwizzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC399BF25F0D3DE00437C3A /* MetodSwizzleViewController.m */; };
+		5EC399C925F0D43900437C3A /* NSURL+MSURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC399C825F0D43900437C3A /* NSURL+MSURL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,10 @@
 		5E9340D725E74F29007E98B6 /* RSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSACryptor.m; sourceTree = "<group>"; };
 		5E9340DC25E74F37007E98B6 /* rsacert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsacert.der; sourceTree = "<group>"; };
 		5E9340DD25E74F37007E98B6 /* p.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = p.p12; sourceTree = "<group>"; };
+		5EC399BE25F0D3DE00437C3A /* MetodSwizzleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetodSwizzleViewController.h; sourceTree = "<group>"; };
+		5EC399BF25F0D3DE00437C3A /* MetodSwizzleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetodSwizzleViewController.m; sourceTree = "<group>"; };
+		5EC399C725F0D43900437C3A /* NSURL+MSURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+MSURL.h"; sourceTree = "<group>"; };
+		5EC399C825F0D43900437C3A /* NSURL+MSURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+MSURL.m"; sourceTree = "<group>"; };
 		DAA8CF1AC93468B37ED52E76 /* Pods-DailyCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyCollection.debug.xcconfig"; path = "Target Support Files/Pods-DailyCollection/Pods-DailyCollection.debug.xcconfig"; sourceTree = "<group>"; };
 		F267D73F7BC9933667FB6064 /* Pods-DailyCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyCollection.release.xcconfig"; path = "Target Support Files/Pods-DailyCollection/Pods-DailyCollection.release.xcconfig"; sourceTree = "<group>"; };
 		F9C0871D8D17F78AF1A9A36E /* libPods-DailyCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DailyCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +149,7 @@
 				5E9340CC25E74F0C007E98B6 /* RSA */,
 				5E8E52B425E8D16200EB512D /* HASH */,
 				5E8E52C425E8EF3C00EB512D /* Cryption */,
+				5EC399BD25F0D28100437C3A /* MethodSwizzle */,
 				5E61DAFC25E7428700CD9BBC /* Resources */,
 				5E61DAC025E7412B00CD9BBC /* Assets.xcassets */,
 				5E61DAC225E7412B00CD9BBC /* LaunchScreen.storyboard */,
@@ -241,6 +248,17 @@
 				5E9340CE25E74F20007E98B6 /* RSAViewController.m */,
 			);
 			path = RSA;
+			sourceTree = "<group>";
+		};
+		5EC399BD25F0D28100437C3A /* MethodSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				5EC399BE25F0D3DE00437C3A /* MetodSwizzleViewController.h */,
+				5EC399BF25F0D3DE00437C3A /* MetodSwizzleViewController.m */,
+				5EC399C725F0D43900437C3A /* NSURL+MSURL.h */,
+				5EC399C825F0D43900437C3A /* NSURL+MSURL.m */,
+			);
+			path = MethodSwizzle;
 			sourceTree = "<group>";
 		};
 		6F1C55F62905FE86FE26EAE7 /* Frameworks */ = {
@@ -420,7 +438,9 @@
 				5E61DAB625E7412A00CD9BBC /* AppDelegate.m in Sources */,
 				5E9340D825E74F29007E98B6 /* RSACryptor.m in Sources */,
 				5E61DAFF25E742D500CD9BBC /* MainViewController.m in Sources */,
+				5EC399C925F0D43900437C3A /* NSURL+MSURL.m in Sources */,
 				5E8E52C025E8D1F600EB512D /* NSString+Hash.m in Sources */,
+				5EC399C025F0D3DE00437C3A /* MetodSwizzleViewController.m in Sources */,
 				5E83B23125E7820A000E79E3 /* MainViewModel.m in Sources */,
 				5E83B24025E79B78000E79E3 /* BaseNavigationController.m in Sources */,
 				5E8E52B725E8D19000EB512D /* HASHViewController.m in Sources */,
