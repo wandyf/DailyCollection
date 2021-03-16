@@ -11,6 +11,7 @@
 #import "HASHViewController.h"
 #import "EncryptionViewController.h"
 #import "MetodSwizzleViewController.h"
+#import "FishHookViewController.h"
 
 @implementation MainViewModel
 
@@ -19,7 +20,8 @@
         _vcArray = @[@{@"name":RSAViewController.identifier,@"desc":@"RSA加密与解密"},
                      @{@"name":HASHViewController.identifier,@"desc":@"HASH算法"},
                      @{@"name":EncryptionViewController.identifier,@"desc":@"对称加密"},
-                     @{@"name":MetodSwizzleViewController.identifier,@"desc":@"MethodSwizzle，方法交换"}];
+                     @{@"name":MetodSwizzleViewController.identifier,@"desc":@"MethodSwizzle，方法交换"},
+                     @{@"name":FishHookViewController.identifier,@"desc":@"fishHook"},];
     }
     return _vcArray;
 }

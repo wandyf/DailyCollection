@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   ent.plist
+   DailyCollection
+
+   Created by 王云峰 on 2021/3/16.
+   Copyright (c) 2021 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+
+                    <key>application-identifier</key>
+            <string>P6BWB32FZB.com.wandyf.DailyCollection</string>
+
+                    <key>keychain-access-groups</key>
+            <array>
+                    <string>P6BWB32FZB.*</string>
+            </array>
+
+                    <key>get-task-allow</key>
+            <true/>
+
+                    <key>com.apple.developer.team-identifier</key>
+            <string>P6BWB32FZB</string>
+
+        </dict>
+</plist>

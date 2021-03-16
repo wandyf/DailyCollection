@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3D1E307F821138E50200D2D1 /* libPods-DailyCollection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C0871D8D17F78AF1A9A36E /* libPods-DailyCollection.a */; };
+		5E00952C260053E100120619 /* ent.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E00952B260053E100120619 /* ent.plist */; };
+		5E0095332600AE7300120619 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E0095322600AE7300120619 /* fishhook.c */; };
+		5E0095392600B2DE00120619 /* FishHookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0095382600B2DE00120619 /* FishHookViewController.m */; };
 		5E61DAB625E7412A00CD9BBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E61DAB525E7412A00CD9BBC /* AppDelegate.m */; };
 		5E61DAC125E7412B00CD9BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E61DAC025E7412B00CD9BBC /* Assets.xcassets */; };
 		5E61DAC425E7412B00CD9BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E61DAC225E7412B00CD9BBC /* LaunchScreen.storyboard */; };
@@ -48,6 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E00952B260053E100120619 /* ent.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ent.plist; sourceTree = "<group>"; };
+		5E0095312600AE7300120619 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		5E0095322600AE7300120619 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		5E0095372600B2DE00120619 /* FishHookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FishHookViewController.h; sourceTree = "<group>"; };
+		5E0095382600B2DE00120619 /* FishHookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishHookViewController.m; sourceTree = "<group>"; };
 		5E61DAB125E7412A00CD9BBC /* DailyCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E61DAB425E7412A00CD9BBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E61DAB525E7412A00CD9BBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +126,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E0095302600AE3200120619 /* fishHook */ = {
+			isa = PBXGroup;
+			children = (
+				5E0095312600AE7300120619 /* fishhook.h */,
+				5E0095322600AE7300120619 /* fishhook.c */,
+				5E0095372600B2DE00120619 /* FishHookViewController.h */,
+				5E0095382600B2DE00120619 /* FishHookViewController.m */,
+			);
+			path = fishHook;
+			sourceTree = "<group>";
+		};
 		5E61DAA825E7412A00CD9BBC = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +169,7 @@
 				5E8E52B425E8D16200EB512D /* HASH */,
 				5E8E52C425E8EF3C00EB512D /* Cryption */,
 				5EC399BD25F0D28100437C3A /* MethodSwizzle */,
+				5E0095302600AE3200120619 /* fishHook */,
 				5E61DAFC25E7428700CD9BBC /* Resources */,
 				5E61DAC025E7412B00CD9BBC /* Assets.xcassets */,
 				5E61DAC225E7412B00CD9BBC /* LaunchScreen.storyboard */,
@@ -200,6 +220,7 @@
 		5E61DAFC25E7428700CD9BBC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5E00952B260053E100120619 /* ent.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -253,10 +274,10 @@
 		5EC399BD25F0D28100437C3A /* MethodSwizzle */ = {
 			isa = PBXGroup;
 			children = (
-				5EC399BE25F0D3DE00437C3A /* MetodSwizzleViewController.h */,
-				5EC399BF25F0D3DE00437C3A /* MetodSwizzleViewController.m */,
 				5EC399C725F0D43900437C3A /* NSURL+MSURL.h */,
 				5EC399C825F0D43900437C3A /* NSURL+MSURL.m */,
+				5EC399BE25F0D3DE00437C3A /* MetodSwizzleViewController.h */,
+				5EC399BF25F0D3DE00437C3A /* MetodSwizzleViewController.m */,
 			);
 			path = MethodSwizzle;
 			sourceTree = "<group>";
@@ -384,6 +405,7 @@
 				5E61DAC425E7412B00CD9BBC /* LaunchScreen.storyboard in Resources */,
 				5E9340DE25E74F37007E98B6 /* rsacert.der in Resources */,
 				5E9340DF25E74F37007E98B6 /* p.p12 in Resources */,
+				5E00952C260053E100120619 /* ent.plist in Resources */,
 				5E61DAC125E7412B00CD9BBC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E8E52D025E8F11300EB512D /* EncryptionTools.m in Sources */,
+				5E0095332600AE7300120619 /* fishhook.c in Sources */,
 				5E61DAB625E7412A00CD9BBC /* AppDelegate.m in Sources */,
 				5E9340D825E74F29007E98B6 /* RSACryptor.m in Sources */,
 				5E61DAFF25E742D500CD9BBC /* MainViewController.m in Sources */,
@@ -446,6 +469,7 @@
 				5E8E52B725E8D19000EB512D /* HASHViewController.m in Sources */,
 				5E8E52C725E8F0A000EB512D /* EncryptionViewController.m in Sources */,
 				5E61DAC725E7412B00CD9BBC /* main.m in Sources */,
+				5E0095392600B2DE00120619 /* FishHookViewController.m in Sources */,
 				5E83B23A25E79B5A000E79E3 /* BaseViewController.m in Sources */,
 				5E9340CF25E74F20007E98B6 /* RSAViewController.m in Sources */,
 			);
@@ -615,7 +639,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6BWB32FZB;
 				INFOPLIST_FILE = DailyCollection/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -635,7 +659,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6BWB32FZB;
 				INFOPLIST_FILE = DailyCollection/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
